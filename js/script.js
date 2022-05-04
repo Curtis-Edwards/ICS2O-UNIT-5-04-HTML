@@ -32,9 +32,11 @@
   if ((tuesday.checked == true || thursday.checked == true) || (age >= 12 && age <= 21)) {
     document.getElementById("output").innerHTML =
   "You are eligible for student pricing!"
+  console.log("eligible for student pricing")
   } else {
   document.getElementById("output").innerHTML =
   "You must pay regular pricing."
+  console.log("not eligible for student pricing")
   }
  }
 
